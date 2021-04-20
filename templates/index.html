@@ -1,0 +1,25 @@
+<html>
+<head>
+    
+    <title> Student Marks Prediction </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="\static\css\main.css">   
+</head>
+    <body>
+    
+	
+    <div class="login-box">
+        <h1> Predict your marks here </h1>
+            <form action="{{url_for('predict')}}" method = "Post">
+            <p>Enter approx number of hours you study in a day and see the magic!!!</p>
+            <input type="number" name="Study" placeholder="Enter no of hours">
+            <input type="submit" value="Predict"> 
+            </form>
+            <br>
+         <h1>{{ Prediction_text }}</h1>
+		 <h2>Developed by Tijo Thomas.</h2>
+        </div>
+    
+    </body>
+</html>

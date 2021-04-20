@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+body{
+    background-color: #44318d;
+}
+.login-box{
+    width: 500px;
+    height: 500px;
+    background-color: #D83F87;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{  
+    font-family: 'Eczar', serif;
+    color: black;
+    margin: -30px;
+    text-align: center;
+    font-size: 30px; 
+	margin-bottom: 50px;
+}
+h2{
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    text-align: center;
+}
+.login-box p{
+        font-family: 'Alegreya', serif;
+        font-size: 17px;
+		text-align: center;
+		color : #CCFFFF;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+	height: 35px;
+	border-radius: 50px;
+	border: none;
+    outline: none;
+	text-align: center;
+}
+.login-box input[type="text"] 
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #1b62f5;
+}
