@@ -4,3 +4,4 @@ requests==2.24.0
 joblib==1.0.1
 pandas==1.2.4
 scikit_learn==0.24.1
+gunicorn==20.1.0
